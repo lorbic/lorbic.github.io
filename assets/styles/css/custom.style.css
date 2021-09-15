@@ -77,11 +77,9 @@ span.label + img {
   margin-top: 15px;
 }
 
-a.link-text {
-  color: var(--color);
-}
 #footer .container-wrap a {
-  color: blue;
+  font-weight: 500;
+  color: var(--color);
 }
 
 /* utilities */
@@ -101,8 +99,13 @@ a.link-text {
 .grid-item {
   margin-top: 10px;
 }
+
 .blue {
   background: var(--color);
   color: white;
   text-decoration: none;
+}
+
+.footer {
+  border-top: 1px solid gray;
 }
